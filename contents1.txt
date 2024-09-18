@@ -1,0 +1,69 @@
+
+Programming Fundamentals
+------------------------
+3+1 credit hours
+Intro to problem solving, Von-Neumann Architecture, Intro to programming, compiler, linker, Algorithms, basic data types, variables, input/output constructs, 
+arithmetic operators, comparison, logical, conditional operators, conditional statements, loops and execution flow, lists and memory organization, multi-dimensional lists, intro to modular programming, function definition and calling, stack rolling and unrolling, string and string operations, pointers/references, static and dynamic memory allocation, File I/O operations
+Reference Books:
+Starting out with Python, Tony Gaddis
+The C Programming Language, by W. Kernighan
+Object-Oriented Programming in C++ by Robert Lafore
+Practice of Computing using Python, W. Punch
+C How to Program , Deitel & Deitel
+C++ Black Book, 
+
+-------------------
+Pascal, FORTRAN, COBOL, C, C++, Java, Python
+Visual Basic, Visual C++
+ASP, JSP, PHP, Javascript
+
+
+e.g. Assembly Language
+     It contains mnemonics as operation codes.
+     Add AX, BX
+     AX = AX + BX
+cout << 217 << endl;
+Registers
+
+
+
+
+
+     Machine Language
+It is the language that computer system understands directly. It consists of instructions in the form of binary 0's and 1's.
+
+00001000 0010 0011
+
+Assembler
+
+
+Run, Execute
+
+
+cout << "Yes" << endl;
+
+Compiler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+Write a program to input marks of 5 subjects of a student and display whether he has passed or failed the exam. A student has passed if Avg>=50.
+
+Write a program to input length and width of a rectange and display its area and permiter as
+Area = length*width
+Perimeter = 2*(length+width).
+
+Write a program to input three numbers A, B & C, and display the highest number.
+
+Write a program to input A and B, and compute
+A^2+B^2+2AB, if A>B
+otherwise display invalid values.
+
+
+Write a program to input A, B and C, and if 
+B^2-4AC is positive then display
+X1 and X2, where 
+X1 = (-B + (B^2-4AC))/(2A)
+X2 = (- B - (B^2-4AC))/(2A)
+or otherwise display 
+Invalid Values.
+
+Write a program to input marks of 05 subjects of a student and display whether he has passed or failed the exam. A student has passed the exam if he passes 03 or more subjects.
+
+Write a program to input 05 numbers A, B, C, D & E, and display the sum of even numbers within these numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

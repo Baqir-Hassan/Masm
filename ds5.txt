@@ -1,0 +1,43 @@
+Algorithm to Reverse contents of a linked List
+// Let N be the number of elements
+for i = 0 to N/2 -1
+ X1 = getVal(i)
+ X2 = getVal(N-i-1)
+ putVal(i, X2)
+ putVal(N-i-1, X1)
+end for
+
+Algorithm getVal(i)
+// Let i be the index
+j=0
+n0=head
+while (j<i)
+  n0=n0->ptr
+  j++
+end while
+return n0->data
+
+Algorithm putVal(i, val)
+// Let i be the index, where value is to be placed
+j=0
+n0=head
+while (j<i)
+  n0=n0->ptr
+  j++
+end while
+n0->data=val
+//////////////////////////////////////
+Circular Linked List
+--------------
+A circular linked list is a data structure containing linked list whose last node points to the initial node. It does not contain NULL value in last node. It may be used for quick traversal within list elements. This data structure is used in games programming, and in resource allocation, e.g. all processes being give CPU time for execution.
+
+Double Linked List
+------------------
+Every node contains two pointers, with first pointer pointing to next node and the second pointer pointing to the previous node.
+
+
+
+
+
+
+

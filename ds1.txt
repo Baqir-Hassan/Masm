@@ -1,0 +1,18 @@
+Data Structures and Algorithms
+Abstract data types, complexity analysis, big oh notation, stacks (linked list and array), recursion, divide and conquer algorithms, sorting (selection, insertion, merge, quick, bubble, heap, shell, radix, bucket), queue, priority quue, linked list, searching array, binary search, hashing and indexing, open addressing and chanining, trees, binary search trees, heaps, m-way trees, balanced trees, graphs, breasth-first and depth-first traversal, topological order, shortest path, adjacency matrix, adjacency list, memory management, and garbage collection.
+Data Structures
+----------
+It is related to storing data, operations on data and retrieval of data.
+
+primitive types
+ built-in
+ int, short, char, float, double
+non-primitive types
+array, union, structs, 
+stack, queue
+Abstract Data Types
+--------------------
+These are user-defined types containing the operations that can be performed.
+classes
+structures
+linked list, stack, queue

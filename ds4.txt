@@ -1,0 +1,24 @@
+T(n) = @(1), if n =1
+      or 2T(n/2)+@(n), if n>1
+Let us find upper bound on the recurrence
+T(n) = 2T(
+We have to prove that T(n) <= c n log n
+T(|n/2|) <= c n/2 log n/2
+
+T(n) = 2 T (|n/2|) + n
+     <= 2 c (|n/2| log |n/2|) + n
+     <= c n (log(n/2)) + n
+     <= cn logn - cn log2 + n
+     <= cn logn - cn + n
+     <= cn logn
+
+
+T(n) = 3T(|n/4|) + @(n^2) ``                          let T(n) be defined as
+T(n) = aT(n/b) + f(n)
+Master Method
+, then T(n) is bounded asymptotically by
+a) If f(n) = n^
+b) If (
+
+     
+      

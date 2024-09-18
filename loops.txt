@@ -1,0 +1,130 @@
+do-while loop
+-------------
+do
+{
+  Statement;
+} while (condition);
+
+e.g..
+i=0;
+do
+{
+  cout <<i << endl;
+  i++;
+} while(i<5);
+
+Write code using for-loop, while, and do-while loop to 
+display sum of the following series:
+1+2+...+n
+#include<iostream>
+using namespace std;
+#include<conio.h>
+int main()
+{
+   int sum=0;
+   int i;
+   int n;
+   cout <<"Give n" << endl;
+   cin >> n;
+   for (i=1; i<=n; i++)
+   {
+     sum = sum + i;
+   }
+   cout <<"Result=" << sum << endl;
+
+   i=1;
+   sum = 0;
+   while(i<=n)
+   {
+     sum = sum +i;
+     i++;
+   }
+   cout <<"Result=" << sum << endl;
+
+   i=1;
+   sum =0;
+   do
+   {
+     sum = sum + i;
+     i++;
+   } while(i<=n);
+   cout <<"Result=" << sum << endl;
+   getch();
+   return 0;   
+}
+
+Lab Work Assignments:
+Write code using for-loop, while, and do-while loop to 
+display sum of the following series:
+2+4+6+...+20
+(1+2)+(2+3)+....(19+20)
+(1-2)-(2+3)+....+-(n+-(n+1))
+2*4*6*...*20
+
+Difference between while loop and do-while loop
+In a while loop the condition is checked at the beginning of iteration, whereas, in a do-while the condition is checked at the end. Therefore, the in a do-while loop, the body of loop is executed at least once, even if the condition is false.
+
+Code to compute factorial of a number
+-----------------------------------
+3! = 3*2*1
+4! = 4*3*2*1
+4! = 4.3! recursive
+
+5! = 1*2*3*4*5
+     1+2+3+4+5
+
+Write a program to input a number n and display its factorial.
+#include<iostream>
+using namespace std;
+#include<conio.h>
+int main()
+{
+   int prod=1;
+   int i;
+   int n;
+   cout <<"Give n" << endl;
+   cin >> n;
+   for (i=1; i<=n; i++)
+   {
+     prod = prod * i;
+   }
+   cout <<"Factorial=" << prod << endl;
+   getch();
+   return 0;
+}
+//////////////////////////////
+Arrays
+------
+Arrays are homogeneous data structures whose elements are stored at
+consecutive memory locations.
+Simple Data Type
+Structured Data Types
+arrays, structures, unions, string
+// declaration
+  int a[10];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
